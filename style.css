@@ -169,3 +169,56 @@ small span {
 .fas {
   font-size: 1.4rem;
 }
+
+/************************************/
+/* BELOW 400px MOBILE VERSION */
+/************************************/
+
+@media (max-width: 25em) {
+  .section-hero {
+    padding: 4.6rem 0 4.6rem 0;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+    padding: 0 2.4rem;
+  }
+
+  .heading-primary {
+    font-size: 2.4rem;
+    text-align: center;
+    /* margin-bottom: 2.4rem; */
+  }
+
+  .hero-description {
+    text-align: center;
+  }
+
+  .hero-text-box {
+    padding: 0 0rem;
+    margin-top: 0rem;
+  }
+
+  .form {
+    width: 100%;
+    padding: 1.6rem;
+  }
+
+  .form-description {
+    padding: 1.2rem 4rem;
+    width: 100%;
+    margin-top: 2.4rem;
+    font-size: 0.8rem;
+  }
+
+  .form-description span {
+    font-size: 0.6rem;
+    margin-left: 0.2rem;
+    margin-top: 6rem;
+  }
+
+  small span {
+    display: block;
+    margin-top: 0.6rem;
+  }
+}
